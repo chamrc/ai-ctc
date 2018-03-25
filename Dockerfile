@@ -70,7 +70,3 @@ RUN ldconfig
 
 # WORKDIR /workspace
 RUN pip3 install colored prompt_toolkit fuzzyfinder pygments
-RUN mkdir -p /DL
-WORKDIR /DL
-COPY hw2/ /DL/hw2
-COPY hw3/ /DL/hw3
